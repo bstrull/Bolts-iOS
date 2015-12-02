@@ -1115,6 +1115,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D5D7DA41BE3CE7C00FD67C7 /* Bolts-iOS-Dynamic.xcconfig */;
 			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@rpath";
 			};
 			name = Debug;
 		};
@@ -1122,6 +1123,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D5D7DA41BE3CE7C00FD67C7 /* Bolts-iOS-Dynamic.xcconfig */;
 			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@rpath";
 			};
 			name = Release;
 		};
