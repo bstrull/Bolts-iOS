@@ -1115,7 +1115,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D5D7DA41BE3CE7C00FD67C7 /* Bolts-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				LD_RUNPATH_SEARCH_PATHS = "@rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -1123,7 +1124,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D5D7DA41BE3CE7C00FD67C7 /* Bolts-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				LD_RUNPATH_SEARCH_PATHS = "@rpath";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
